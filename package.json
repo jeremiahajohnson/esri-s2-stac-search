@@ -1,0 +1,16 @@
+{
+  "name": "esri-s2-stac-search",
+  "version": "1.0.0",
+  "description": "Esri ArcGIS Maps SDK for JavaScript demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["esri", "arcgis", "maps"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
