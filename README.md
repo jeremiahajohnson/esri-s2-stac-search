@@ -2,6 +2,9 @@
 
 A web application for viewing Sentinel-2 satellite imagery using the ArcGIS Maps SDK for JavaScript and STAC API.
 
+<img width="1887" height="1388" alt="image" src="https://github.com/user-attachments/assets/fe9a8688-6993-498e-880e-105e1a79b51b" />
+
+
 ## Features
 
 - Search Sentinel-2 imagery by date range and map extent
