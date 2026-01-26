@@ -40,11 +40,11 @@ Web-based satellite imagery viewer combining ArcGIS Maps SDK, STAC API (Sentinel
 
 ## Critical Files & Responsibilities
 
-- [server.js](server.js): CORS proxy + static file serving - modify if S3 region or authentication changes
-- [public/app.js](public/app.js): Core app logic - search, timeline, imagery display; URL interceptor must match S3 patterns
-- [public/index.html](public/index.html): DOM structure; search panel + timeline + map container
-- [public/config.js](public/config.js): API key injection (gitignored) - must match template in config.example.js
-- [public/styles.css](public/styles.css): Timeline styling + loading overlay
+- [../server.js](../server.js): CORS proxy + static file serving - modify if S3 region or authentication changes
+- [../public/app.js](../public/app.js): Core app logic - search, timeline, imagery display; URL interceptor must match S3 patterns
+- [../public/index.html](../public/index.html): DOM structure; search panel + timeline + map container
+- [../public/config.js](../public/config.js): API key injection (gitignored) - must match template in config.example.js
+- [../public/styles.css](../public/styles.css): Timeline styling + loading overlay
 
 ## Developer Workflows
 
