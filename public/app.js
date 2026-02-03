@@ -19,7 +19,7 @@ require([
     urls: /^https:\/\/.*\.s3\..*\.amazonaws\.com\//,
     before(request) {
       const originalUrl = request.url;
-      const proxyUrl = `http://localhost:3000/sentinel-proxy/cog?url=${encodeURIComponent(originalUrl)}`;
+      const proxyUrl = `${window.location.origin}/sentinel-proxy/cog?url=${encodeURIComponent(originalUrl)}`;
       console.log('Interceptor rewriting S3 URL:', originalUrl.substring(0, 100) + '...');
       request.url = proxyUrl;
     }
